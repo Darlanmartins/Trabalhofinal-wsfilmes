@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 p {
-	letter-spacing: 1px;
-	line-height: 28px;
+	letter-spacing: 1,5px;
+	line-height: 30px;
 }
 hr {
 	border-color: #e0e0e0;
@@ -121,7 +121,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 /* home section */
 #home {
 	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
-	color: #ffffff;
+	color: #EEE8AA;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -130,18 +130,18 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
-	height: 100vh;
+	height: 98vh;
 	text-align: center;
 }
 #home h2 {
 	letter-spacing: 2px;
 }
 #home .btn {
-	background: #eb5424;
+	background: #DAA520;
 	border-radius: 4px;
 	border: none;
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 19px;
 	padding: 20px 40px;
 	margin-top: 60px;
 }
@@ -246,11 +246,10 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-top: 100px;
 	padding-bottom: 100px;
 	font-size: 28px;
-
 }
 #team h2 {
-	color: #eb5424;
-	font-size: 90px;
+	color: #DAA520;
+	font-size: 85px;
 }
 #team h3 {
 	font-size: 20px;
@@ -289,9 +288,9 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #portfolio img {
 	border-radius: 1px;
-	width: 100%;
+	width: 370px;
 	max-width: 100%;
-	height: auto;
+	height: 230px;
 	opacity: 0.8;
 	margin-bottom: 34px;
 	opacity: 0.6;
