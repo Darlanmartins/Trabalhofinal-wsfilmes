@@ -1,8 +1,3 @@
-/*
-ROMNA Template
-http://www.templatemo.com/free-website-templates/
-*/
-
 body {
 	background: #f8f8f8;
 	color: #606060;
@@ -138,11 +133,11 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #home .btn {
 	background: #DAA520;
-	border-radius: 4px;
+	border-radius: 10px;
 	border: none;
 	color: #ffffff;
 	font-size: 19px;
-	padding: 20px 40px;
+	padding: 10px 20px;
 	margin-top: 60px;
 }
 #home .btn:hover {
@@ -222,11 +217,12 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #work h3 {
 	padding-bottom: 60px;
+	font-size: 25px;
 }
 #work .fa {
 	color: #ffffff;
 	cursor: pointer;
-	font-size: 40px;
+	font-size: 50px;
 	width: 100px;
 	height: 100px;
 	line-height: 100px;
@@ -268,8 +264,9 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #team img {
 	max-width: 100%;
-	height: auto;
-	padding-top: 60px;
+	height: 600px;
+	width: 400px;
+	padding-top: 50px;
 }
 /* portfolio section */
 #portfolio {
@@ -412,10 +409,10 @@ footer .copyright a {
 	background: #f8f8f8;
 	border-radius: 100%;
 	color: #eb5424;
-	font-size: 32px;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
+	font-size: 25px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
 	text-align: center;
 	text-decoration: none;
 	transition: all 0.4s ease-in-out;
