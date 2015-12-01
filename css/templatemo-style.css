@@ -353,6 +353,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #ffffff;
 	padding-top: 100px;
 	padding-bottom: 80px;
+	font-size: 17px;
 }
 #contact h2 {
 	color: #ffffff;

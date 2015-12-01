@@ -175,13 +175,17 @@ DJANGO UNCHAINED - O Filme -->
       <div class="col-md-offset-3 col-md-6 col-md-offset-3  col-sm-offset-2 col-sm-8 col-sm-offset-2 title">
         <h2>Formulário de Contato</h2>
         <hr>
-        <p>Se você gostou desta página ou quer saber algo mais sobre o filme DJANGO UNCHAINED preencha o formulário abaixo que retornaremos a sua mensagem</p>
+        <p>Se você gostou desta página ou quer saber algo mais sobre o filme DJANGO UNCHAINED preencha o formulário abaixo. <br> Retornaremos a sua mensagem</p>
       </div>
-      <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp" data-wow-delay="0.9s">
+	   <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp" data-wow-delay="0.9s">
         <form action="#" method="post">
-          <input type="text" class="form-control" placeholder="Nome">
-          <input type="email" class="form-control" placeholder="Email">
-          <input type="fone" class="form-control" placeholder="Telefone">
+		  Você já assistiu o filme?  
+      <select class="selecao" id="selecione">
+        <option>Selecione</option>
+        <option value="S">Sim</option>
+        <option value="N">Não</option>
+          <input type="text" class="form-control" placeholder="Nome Completo:">
+		      <input type="date" id="dt_nasc" class="form-control" placeholder="Data de Nascimento:"><span id="s_data_nasc"></span>	  
           <textarea class="form-control" placeholder="Menssagem" rows="6"></textarea>
           <input type="submit" class="form-control" href="confirm.envio.html" value="ENVIAR MENSAGEM"> 
         </form>
@@ -198,7 +202,7 @@ DJANGO UNCHAINED - O Filme -->
 		<p><img src="images/oscar.jpg" height="100"> <img src="images/oscar.jpg" height="100"> </br></br> - Melhor Ator Coadjuvante 2013 | Christoph Waltz -  </br> 
 		    - Melhor Roteiro 2013 | Quentin Tarantino - </br></br> </p>
         <ul class="social-icon">
-          <li><a class="fa fa-facebook" data-wow-delay="0.3s"></a></li>
+          <li><a class="fa fa-facebook" data-wow-delay="0.5s"></a></li>
           <li><a class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>
           
       </ul>
@@ -210,7 +214,6 @@ DJANGO UNCHAINED - O Filme -->
   </div>
 </footer>
 <!-- JAVASCRIPT JS FILES --> 
-</script>
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/nivo-lightbox.min.js"></script> 
@@ -219,6 +222,6 @@ DJANGO UNCHAINED - O Filme -->
 <script src="js/jquery.parallax.js"></script> 
 <script src="js/wow.min.js"></script> 
 <script src="js/custom.js"></script>
-
+</script>
 </body>
 </html>
