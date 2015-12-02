@@ -29,9 +29,8 @@ DJANGO UNCHAINED - O Filme -->
       <div class="col-md-12 col-sm-12">
         <h1 class="wow bounceInDown rotate">D J A N G O</h1>
         <h2 class="wow bounce"></h2>
-        <a href="#intro" id="tocar" class="btn btn-default smoothScroll">COMEÇAR</a></div>
-              <div id="display">mp3</div>
-              <audio id="tocar" controls="controls" src="audio/Freedom   Django Unchained.mp3"></audio>
+        <a href="#intro" id="tocar" controls="controls" class="btn btn-default smoothScroll">COMEÇAR</a></div>
+        <audio id="tocar" controls="controls" src="audio/Freedom   Django Unchained.mp3"></audio>
     </div>
   </div>
 </section>
@@ -180,14 +179,15 @@ DJANGO UNCHAINED - O Filme -->
 	   <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 contact-form wow fadeInUp" data-wow-delay="0.9s">
         <form action="#" method="post">
 		  Você já assistiu o filme?  
-      <select class="selecao" id="selecione">
-        <option>Selecione</option>
-        <option value="S">Sim</option>
-        <option value="N">Não</option>
-          <input type="text" class="form-control" placeholder="Nome Completo:">
-		      <input type="date" id="dt_nasc" class="form-control" placeholder="Data de Nascimento:"><span id="s_data_nasc"></span>	  
+		<select class="form-control" id="selecione"/>
+        <option class="form-control"> Selecione </option>
+        <option class="form-control" value="S">Sim</option>
+        <option class="form-control" value="N">Não</option>
+          <input type="text" class="form-control" placeholder="Nome Completo:"/>
+		      <input type="date" id="dt_nasc" class="form-control" placeholder="Data de Nascimento:"/>
+          <span id="s_data_nasc"></span>	  
           <textarea class="form-control" placeholder="Menssagem" rows="6"></textarea>
-          <input type="submit" class="form-control" href="confirm.envio.html" value="ENVIAR MENSAGEM"> 
+          <input type="submit" class="form-control" href="confirm.html" value="ENVIAR MENSAGEM"/> 
         </form>
       </div>
     </div>
@@ -208,12 +208,14 @@ DJANGO UNCHAINED - O Filme -->
       </ul>
       </div>
       <div class="col-md-12 col-sm-12 copyright">
-        <p>&copy; DJANGO 2013. All Rights Reserved | Design by D Martins<a target="_blank" rel="nofollow" href="http://www.templatemo.com"></a></p>
+        <p>&copy; DJANGO 2013 | All Rights Reserved | Design by D Martins<a target="_blank" rel="nofollow" href="http://www.templatemo.com"></a></p>
       </div>
     </div>
   </div>
 </footer>
 <!-- JAVASCRIPT JS FILES --> 
+<script src="js/jquery-2.1.4.min"></script>
+<script src="js/jquery.maskedinput.min"></script>
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/nivo-lightbox.min.js"></script> 
