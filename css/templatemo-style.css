@@ -132,7 +132,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	letter-spacing: 2px;
 }
 #home .btn {
-	background: #DAA520;
+	background: #FF4500;
 	border-radius: 10px;
 	border: none;
 	color: #ffffff;

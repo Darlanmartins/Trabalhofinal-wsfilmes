@@ -29,8 +29,7 @@ DJANGO UNCHAINED - O Filme -->
       <div class="col-md-12 col-sm-12">
         <h1 class="wow bounceInDown rotate">D J A N G O</h1>
         <h2 class="wow bounce"></h2>
-        <a href="#intro" id="tocar" controls="controls" class="btn btn-default smoothScroll">COMEÇAR</a></div>
-        <audio id="tocar" controls="controls" src="audio/Freedom   Django Unchained.mp3"></audio>
+        <a href="#intro" id="entrar" class="btn btn-default smoothScroll">ENTRAR</a></div>
     </div>
   </div>
 </section>
@@ -154,14 +153,14 @@ DJANGO UNCHAINED - O Filme -->
    <div class="col-md-12 col-sm-24">
       <div class="plan wow bounceIn" data-wow-delay="0.3s">
         <div class="plan_title">
-          <button class="btn btn-warning" id="assistir" >Assista o Trailer</button>
+          <audio controls="controls" autoplay="autoplay" preload='preload'id="tocar"src="audio/Freedom   Django Unchained.mp3"></audio>
         </div>
         <div class="plan_sub_title">
           <h2></h2>
           <small></small> </div>
         <ul>
           <li></li>
-          <li><iframe width="1100" height="630" id="Video1" src="https://www.youtube.com/embed/tivv135aGbc" frameborder="0" allowfullscreen></iframe></li>
+          <li><iframe width="1000" height="570" id="Video1" src="https://www.youtube.com/embed/tivv135aGbc" frameborder="0" allowfullscreen></iframe></li>
           <li></li>
         </ul>
       </div>
@@ -184,10 +183,9 @@ DJANGO UNCHAINED - O Filme -->
         <option class="form-control" value="S">Sim</option>
         <option class="form-control" value="N">Não</option>
           <input type="text" class="form-control" placeholder="Nome Completo:"/>
-		      <input type="date" id="dt_nasc" class="form-control" placeholder="Data de Nascimento:"/>
-          <span id="s_data_nasc"></span>	  
+		      <input type="date" id="dt_nasc" class="form-control" placeholder="Data de Nascimento:"/><span id="s_data_nasc"></span>	  
           <textarea class="form-control" placeholder="Menssagem" rows="6"></textarea>
-          <input type="submit" class="form-control" href="confirm.html" value="ENVIAR MENSAGEM"/> 
+          <a type="submit" class="form-control" href=pg2.html> ENVIAR FORMULÁRIO </a> 
         </form>
       </div>
     </div>
@@ -214,8 +212,6 @@ DJANGO UNCHAINED - O Filme -->
   </div>
 </footer>
 <!-- JAVASCRIPT JS FILES --> 
-<script src="js/jquery-2.1.4.min"></script>
-<script src="js/jquery.maskedinput.min"></script>
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/nivo-lightbox.min.js"></script> 
